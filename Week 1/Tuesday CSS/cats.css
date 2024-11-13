@@ -1,0 +1,32 @@
+body{
+    background-color: lightgoldenrodyellow;
+    height: 100vw;
+    width: 100vw;
+}
+
+h1{
+    background-color:lightpink;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    
+}
+
+h2{
+    background-color:  cyan;
+}
+
+
+
+p{
+    color: lightblue
+}
+
+li{
+    border: 5px dotted red;
+    margin: 10px;
+    padding: 5px;
+
+}
