@@ -1,31 +1,31 @@
 body{
-    background-color: lightgoldenrodyellow;
+    background-color: #e4e5dc;
     height: 100vw;
     width: 100vw;
 }
 
 h1{
-    background-color:lightpink;
+   /* background-color:lightpink;
     position: fixed;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align:center;
+    text-align:center;*/
     
 }
 
 h2{
-    background-color:  cyan;
+   
 }
 
 
 
 p{
-    color: lightblue
+    color: #16b1e0
 }
 
 li{
-    border: 5px dotted red;
+    /*border: 5px dotted red;*/
     margin: 10px;
     padding: 5px;
 
