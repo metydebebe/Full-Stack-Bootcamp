@@ -1,17 +1,19 @@
 body{
     background-color: #d1f2eb;
-    height: 100vw;
+    height: 150vw;
     width: 100vw;
 }
 
 h1{
     color:#b03a2e;
     text-align: center;
+    padding: 2px;
 }
 
 table{
     border: 2px solid #f5b041;
     border-radius:2%;
+    padding:1px;
 }
 
 th{
@@ -28,13 +30,15 @@ td{
 
 p{
     color:#b03a2e;
+    padding:10px;
 }
 
 form{
+    width:50%;
     border:2px solid #f5b041;
     margin-left: 5px;
     margin-top: 5px;
     margin-right: 5px;
-    padding: 5px;
+    padding:10px;
     border-radius:2%;
 }
