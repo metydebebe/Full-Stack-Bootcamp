@@ -1,7 +1,8 @@
 body{
     background-color: #d1f2eb;
-    height: 150vw;
-    width: 100vw;
+    height: 70vw;
+    width: 70vw;
+    padding:5px;
 }
 
 h1{
@@ -34,7 +35,7 @@ p{
 }
 
 form{
-    width:50%;
+    width:30%;
     border:2px solid #f5b041;
     margin-left: 5px;
     margin-top: 5px;
