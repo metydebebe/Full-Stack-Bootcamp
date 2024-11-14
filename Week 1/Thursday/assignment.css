@@ -1,0 +1,40 @@
+body{
+    background-color: #d1f2eb;
+    height: 100vw;
+    width: 100vw;
+}
+
+h1{
+    color:#b03a2e;
+    text-align: center;
+}
+
+table{
+    border: 2px solid #f5b041;
+    border-radius:2%;
+}
+
+th{
+    border:1px solid #f5b041;
+    border-radius:2%;
+    padding:5px;
+}
+
+td{
+    border:1px solid #f5b041;
+    border-radius:2%;
+    padding:5px;
+}
+
+p{
+    color:#b03a2e;
+}
+
+form{
+    border:2px solid #f5b041;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius:2%;
+}
