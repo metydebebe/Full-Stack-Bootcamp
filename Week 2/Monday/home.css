@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #444;
+    text-align: center;
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 32px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;*/
+    text-align: center;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item {
+    height: 200px;
+    border: 5px solid #ccc; 
+    padding: 5px; 
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item img {
+    max-width: 100%; 
+    max-height: 100%; 
+    display: block; 
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    background-color: pink;
+    text-align: center;
+    animation: slide 5s ease-in-out 1s infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-color: pink;
+        transform: translateX(-100%);
+    }
+
+    50% {
+        background-color: cyan;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        background-color: pink;
+        transform: translateX(0%);
+    }
+}
+
+footer {
+    background-color: #edf4b6;
+    text-align: center;
+}
