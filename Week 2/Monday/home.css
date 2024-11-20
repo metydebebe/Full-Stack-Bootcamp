@@ -42,7 +42,8 @@ header {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /*grid-template-columns: 1fr 1fr;
+    /*grid-auto-rows:100px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;*/
     text-align: center;
     border: 1px solid #ccc;
@@ -89,6 +90,18 @@ h1 {
     100% {
         background-color: pink;
         transform: translateX(0%);
+    }
+}
+
+@media only screen and (max-width:600px){
+    nav{
+        background-color: #DAB1DA;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    h2{
+        color: #DAB1DA;
     }
 }
 
